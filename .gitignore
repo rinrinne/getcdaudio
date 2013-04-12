@@ -1,0 +1,40 @@
+# Object files
+*.slo
+*.lo
+*.o
+
+# Libraries
+*.lib
+*.lai
+*.la
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Autotools generates
+*.m4
+*.cache
+*.log
+
+# Content files
+*.zip
+*.gz
+*.wav
+*.mp3
+*~
+
+Makefile
+config.status
+tmp/
+.deps/
+
+getcdaudio

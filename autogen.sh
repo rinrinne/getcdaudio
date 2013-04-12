@@ -1,0 +1,2 @@
+#!/binbash
+autoreconf --force --install

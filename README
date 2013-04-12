@@ -1,0 +1,53 @@
+getcdaudio: Get CD Audio
+===========================
+
+* Author: rinrinne a.k.a. rin_ne
+* Repository: https://github.com/rinrinne/getcdaudio
+
+Synopsis
+---------------------------
+
+gerouter is a executables to get CD Audio as PCM raw data from WAV format file.
+
+Usage
+--------------------------
+
+You should install libsndfile before build.
+
+Build executables:
+
+```console
+$ ./configure
+$ make
+```
+
+The executables named `getcdaudio` is stored in src directory.
+
+Command help:
+
+```console
+getcdaudio [OPTION] INFILE
+
+  -b hh:ss:ff   Begin frame.
+  -e hh:ss:ff   End frame.
+  -o OUTFILE    Output file. if not specified, output to stdout.
+  -i            Show information for input file.
+  -h            This help.
+
+```
+
+Notice
+---------------------------
+
+Sorry, this programs is for Linux only. But this is written by standard functons only, so it whould be easy to port other systems.
+
+
+License
+---------------------------
+
+GPL v3.
+
+Copyright
+---------------------------
+
+Copyright (c) 2013 rinrinne a.k.a. rin_ne
