@@ -1,0 +1,7 @@
+#GNU tools generated code
+
+- ^autogen.sh
+- ^configure
+- ^depcomp
+- ^install-sh
+- ^missing
